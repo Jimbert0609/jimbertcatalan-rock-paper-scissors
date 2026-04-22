@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Paper Rock Scissors</title>
-  <link rel="stylesheet" href="jim.css" />
+  <link rel="stylesheet" href="jim.css">
 </head>
 <body>
-  <h1>Paper Rock Scissors</h1>
-  <p>Choose one:</p>
-
-  <button id="rock">Rock 🪨</button>
-  <button id="paper">Paper 📄</button>
-  <button id="scissors">Scissors ✂️</button>
-
-  <div id="result">Result will appear here.</div>
-  <div class="score">
-    Player: <span id="playerScore">0</span> | Computer: <span id="computerScore">0</span>
+  <div class="game-container">
+    <h1>🪨 Paper Rock Scissors ✂️</h1>
+    <p>Choose your move:</p>
+    
+    <div class="buttons">
+      <button id="rock">Rock 🪨</button>
+      <button id="paper">Paper 📄</button>
+      <button id="scissors">Scissors ✂️</button>
+    </div>
+    
+    <div id="result">First to score 5 points wins!</div>
+    <div class="score">
+      Player: <span id="playerScore">0</span> | 
+      Computer: <span id="computerScore">0</span>
+    </div>
   </div>
 
   <script src="jim.js"></script>
 </body>
 </html>
- 
