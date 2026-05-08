@@ -29,7 +29,6 @@ body {
   padding: 40px 30px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   max-width: 500px;
-  width: 100%;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
